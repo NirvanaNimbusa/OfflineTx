@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation=    "vertical"
+    android:layout_width=    "match_parent"
+    android:layout_height=    "match_parent">    
+		
+		<EditText
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editTextTx"
+		android:minHeight="512px" />
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="50px"
+		android:minHeight="50px"
+		android:id="@+id/space1" />
+	<Button
+		android:text="@string/broadcast_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/broadcast_button"
+		android:clickable="true"
+		android:onClick="Broadcast_Clicked"/>
+	
+</LinearLayout>
+
+
