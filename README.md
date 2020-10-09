@@ -14,20 +14,20 @@ This project has three parts:
 
 1. Open the App in Visual Studio, build and run. Copy a transaction hex.
 
-![App1](/Screenshots/1.png)
+![1](/Screenshots/1.png)
 
 2. Tap "broadcast" which will encode it into words, warning text shows number of messages that will be sent and confirm it will send multi parts message with all the words.
 
-![App1](/Screenshots/2.png) ![App1](/Screenshots/3.png) ![App1](/Screenshots/4.png)
+![2](/Screenshots/2.png) ![3](/Screenshots/3.png) ![4](/Screenshots/4.png)
 
 3. I have used [ngrok](https://ngrok.com/) to get a public URL for the web server running on localhost
 
-![App1](/Screenshots/5.png)
+![5](/Screenshots/5.png)
 
 4. The URL should be saved in the INBOX settings for [textlocal.in](https://control.textlocal.in/)
 
-![App1](/Screenshots/6.png)
+![6](/Screenshots/6.png)
 
-5. I have commented some code in (/Web Server/listenandsave.py) because you need to buy a dedicated number for receiving random texts. Right now you can test by sending the default keyword for inbox to the specified number. It will save all the details in google sheet.
+5. I have commented some code in [ListenandSave.py](/Web%20Server/ListenandSave.py) because you need to buy a dedicated number for receiving random texts. Right now you can test by sending the default keyword for inbox to the specified number. It will save all the details in google sheet.
 
-![App1](/Screenshots/7.png)
+![7](/Screenshots/7.png)
