@@ -6,7 +6,7 @@ This project has three parts:
 2. Web Server 
 3. Third party APIs
 
-+ Android app can be used to convert transaction hex in to words and send using text messages
++ Android app can be used to convert transaction hex in to words and send using text messages. Encoding of hex to words is done using [HextoWords](https://github.com/prayank23/HextoWords) which is C# implementation of https://gist.github.com/grubles/41a8ab74afe2cee6ef7128b07438455b
 
 + Web Server part listens for incoming text messages, saves them in a google sheet (phone number, content, flag etc.). Second part of web server is not implemented yet which will regularly check for new data in google sheet, decode from words to hex, broadcast using [blockstream.info API](https://github.com/Blockstream/esplora/blob/master/API.md), save the trannsaction id and respond by sending text message
 
